@@ -9,8 +9,8 @@ rule all:
 
 rule cutadapt:
     input:
-        "/home/zhengwx/microRNA/raw2/{sample}_R1_001.fastq.gz",
-        "/home/zhengwx/microRNA/raw2/{sample}_R2_001.fastq.gz"
+        "/path/to/{sample}_R1_001.fastq.gz",
+        "/path/to/{sample}_R2_001.fastq.gz"
     output:
         "result/clean/fq/{sample}_R1_001_val_1.fq.gz",
         "result/clean/fq/{sample}_R2_001_val_2.fq.gz"
