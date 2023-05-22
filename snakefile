@@ -16,8 +16,7 @@ rule cutadapt:
         "result/clean/fq/{sample}_R2_001_val_2.fq.gz"
     shell:
         "trim_galore {input}  -o result/clean/fq/ \
-        -j 6 -q 25 --phred33 --length 18 --stringency 1 --paired --gzip\
-        --three_prime_clip_R1 70 --three_prime_clip_R1 70"
+        -j 6 -q 25 --phred33 --length 18 --stringency 1 --paired --gzip"
 
 rule qc:
     input:

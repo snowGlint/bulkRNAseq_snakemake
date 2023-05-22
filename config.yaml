@@ -1,8 +1,7 @@
 SAMPLES:
-- 220717145-P0-H-E-YQM_S62_L001
-- 220717145-P0-J-E-YQM_S61_L001
-- 220717145-P2-H-E-ZBY_S2_L004
+  - 220717145-P0-H-E-YQM_S62_L001
+  - 220717145-P0-J-E-YQM_S61_L001
+  - 220717145-P2-H-E-ZBY_S2_L004
 
-
-genome: ref-data/miRNA/miRNA
-gtf: ref-data/hsa.gff3
+genome: ref-data/hg38/genome
+gtf: ref-data/hg38.refGene.gtf.gz
